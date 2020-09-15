@@ -1,7 +1,9 @@
 <html>
 <head>
     <title> Beast taxi </title>
-    <link type="text/css" href="style.css" rel="stylesheet">
+    <link type="text/css" href="style_wrapper.css" rel="stylesheet">
+    <link type="text/css" href="style_menu_login.css" rel="stylesheet"> 
+    <link type="text/css" href="style_content_banners.css" rel="stylesheet">
 </head>
 <body background="background.jpg">
     <header class="site-header">
@@ -17,5 +19,48 @@
             </nav>
         </div>
     </header>
+    <div class="menu_login">
+        <div class="main_menu"> 
+            <nav class="nav2">
+                <ul>
+                    <li class="nav_item2"> <a href="#">Заказать такси</a> </li>
+                    <li class="nav_item2"> <a href="#">Сотрудникам</a> </li>
+                    <li class="nav_item2"> <a href="#">Хотите устроиться к нам?</a> </li>
+                    <li class="nav_item2"> <a href="#">Документы</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="login"> 
+            <p> E-mail: <input type="text" name="email"/> </p>
+            <p> Пароль: <input type="password" name="password" /> </p>
+            <p> <input type="submit" name="button_auth" value="Войти"> </p>
+        </div>
+    </div>
+
+    <div class="content_banners">
+        <div class="content">
+            <h2> Мы рады приветствовать вас на офциальном сайте Beast Taxi </h2>
+            <p>
+                У нас вы сможете заказать самые лучшие услуги такси в городе! Компания гарантирует Вам комфортные машины, адекватных водителей, 
+                а цены вас приятно удивят.
+            </p>
+            <p>
+                Мы предоставляем широкий спектр услуг, таких как такси, эскорт, аренда автомобилей, и многое другое. Подробнее вы сможете прочитать
+                перейдя по ссылке "О нас"
+            </p>
+            <p>
+                Так же вы сможете расчитать стоимость поездки, перейдя по ссылке "Калькулятор цен"
+            </p>
+        </div>
+        <div class="banners">
+            <a href="#"><img class="adver" src="banner1.jpg" alt="Реклама 1"></a>
+            <a href="#"><img class="adver" src="banner2.jpg" alt="Реклама 2"></a>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>&copy; Игорь Бабенко</p>
+        По всем вопросам: vk.con/riziyigor
+    </div>
 </body>
 </html>

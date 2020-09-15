@@ -1,0 +1,46 @@
+.content_banners{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.content{
+  width: 80%;
+  float:left;
+  color: #ffaa00;
+  font-size: 25;
+  
+}
+
+.banners{
+  width: 20%;
+  float:left;
+  color: #ffaa00;
+  align-content: center;
+  text-align: center;
+}
+
+.content h2{
+  text-align: center;
+  color: #ff3900;
+}
+
+.content p{
+  padding-left: 15px;
+  text-indent: 1.5em;
+  text-align: justify;
+}
+
+.adver{
+  width: 250px;
+  margin: 15px 0 30px 10px;
+}
+
+.footer{
+  position: fixed;
+  left:0; bottom:0;
+  padding: 10px;
+  background: grey;
+  width: 100%;
+  z-index: 1000;
+}
